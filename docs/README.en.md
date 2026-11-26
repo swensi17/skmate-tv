@@ -5,7 +5,7 @@
 <p align="center"><b>A free, open-source IPTV player for Samsung (Tizen) and LG (webOS) TVs.</b> For Android TV, Google TV and Fire TV: <a href="https://github.com/swensi17/skmate-iptv">SkMate for Android</a>.<br>
 M3U and Xtream Codes, TV guide (EPG), catch-up, profiles — remote-only control, no ads, no accounts. The same app as on Android TV: same screens, features and settings.</p>
 
-<p align="center"><a href="https://github.com/swensi17/skmate-tv/releases/latest/download/SkMate-IPTV-tizen.wgt"><b>⬇ Download for Samsung (.wgt)</b></a> · <a href="https://github.com/swensi17/skmate-iptv"><b>Android TV, Google TV, Fire TV →</b></a></p>
+<p align="center"><a href="https://github.com/swensi17/skmate-tv/releases/latest/download/SkMate-IPTV-tizen.wgt"><b>⬇ Download for Samsung (.wgt)</b></a> · <a href="https://github.com/swensi17/skmate-tv/releases/latest/download/SkMate-IPTV-webos.ipk"><b>⬇ Download for LG (.ipk)</b></a> · <a href="https://github.com/swensi17/skmate-iptv"><b>Android TV, Google TV, Fire TV →</b></a></p>
 
 <p align="center"><a href="../README.md">Русский</a> · <b>English</b></p>
 
@@ -20,7 +20,12 @@ M3U and Xtream Codes, TV guide (EPG), catch-up, profiles — remote-only control
 
 Why not the Samsung store? Without a partner contract Samsung publishes third-party apps only in the US.
 
-**LG (webOS):** coming to the LG Content Store.
+**LG (webOS 4.0+, 2018 models and newer):** via LG Developer Mode and webOS Dev Manager, see [install-lg.md](install-lg.md#skmate-iptv-on-lg-tvs-webos).
+1. LG developer account: https://webostv.developer.lge.com
+2. On the TV: LG Content Store → **Developer Mode** → sign in → Dev Mode Status: On → Key Server: On.
+3. On the computer: [webOS Dev Manager](https://github.com/webosbrew/dev-manager-desktop/releases/latest) → add the TV → install [SkMate-IPTV-webos.ipk](https://github.com/swensi17/skmate-tv/releases/latest/download/SkMate-IPTV-webos.ipk).
+
+Developer Mode lasts up to 1000 hours; press EXTEND in the Developer Mode app, or the TV removes the app. Not tested on an LG TV yet.
 
 ## Content
 

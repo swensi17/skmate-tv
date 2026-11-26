@@ -29,7 +29,7 @@ M3U и Xtream Codes, телегид (EPG), архив, профили — упр
   <img alt="No ads" src="https://img.shields.io/badge/ads-none-2ecc71">
 </p>
 
-<p align="center"><a href="https://github.com/swensi17/skmate-tv/releases/latest/download/SkMate-IPTV-tizen.wgt"><b>⬇ Скачать для Samsung (.wgt)</b></a> — <a href="docs/install-samsung.md">как установить</a> · <a href="https://github.com/swensi17/skmate-iptv"><b>Android TV, Google TV, Fire TV →</b></a></p>
+<p align="center"><a href="https://github.com/swensi17/skmate-tv/releases/latest/download/SkMate-IPTV-tizen.wgt"><b>⬇ Скачать для Samsung (.wgt)</b></a> — <a href="docs/install-samsung.md">как установить</a> · <a href="https://github.com/swensi17/skmate-tv/releases/latest/download/SkMate-IPTV-webos.ipk"><b>⬇ Скачать для LG (.ipk)</b></a> — <a href="docs/install-lg.md">как установить</a> · <a href="https://github.com/swensi17/skmate-iptv"><b>Android TV, Google TV, Fire TV →</b></a></p>
 
 <p align="center"><b>Русский</b> · <a href="docs/README.en.md">English</a></p>
 
@@ -79,7 +79,7 @@ M3U и Xtream Codes, телегид (EPG), архив, профили — упр
 **Есть ли в приложении каналы?** Нет. Это только плеер: вы добавляете свой M3U или Xtream Codes.
 **Почему не в магазине Samsung?** Магазин Samsung выпускает приложения сторонних разработчиков без партнёрского договора только в США. Поэтому SkMate ставится через TizenBrew, это занимает около 10 минут один раз.
 **Какие телевизоры Samsung подходят?** Tizen 4.0 и новее (модели с 2018 года). Проверено на модели 2019 года. Подробно — в [инструкции](docs/install-samsung.md).
-**А LG?** Версия для LG готовится к выпуску в магазин LG: [подробности](docs/install-lg.md).
+**А LG?** Файл `.ipk` ставится через режим разработчика LG и webOS Dev Manager, около 15 минут: [инструкция](docs/install-lg.md). Режим разработчика LG нужно продлевать раз в 1000 часов кнопкой EXTEND, иначе телевизор удалит приложение.
 **А Android TV, Google TV, Fire TV?** Отдельная версия: [swensi17/skmate-iptv](https://github.com/swensi17/skmate-iptv).
 
 ## Установка
@@ -89,11 +89,14 @@ M3U и Xtream Codes, телегид (EPG), архив, профили — упр
 2. На компьютере: скачать [TizenBrew Installer](https://github.com/reisxd/TizenBrewInstaller/releases/latest) и нажать **Install TizenBrew**.
 3. В TizenBrew Installer: установка **с GitHub** → `swensi17/skmate-tv`.
 
-**LG (webOS):** [готовим](docs/install-lg.md).
+**LG (webOS):** через режим разработчика и webOS Dev Manager — [пошаговая инструкция](docs/install-lg.md).
+1. Аккаунт разработчика LG: https://webostv.developer.lge.com
+2. На телевизоре: LG Content Store → **Developer Mode** → войти → Dev Mode Status: On → Key Server: On.
+3. На компьютере: [webOS Dev Manager](https://github.com/webosbrew/dev-manager-desktop/releases/latest) → добавить телевизор → установить [SkMate-IPTV-webos.ipk](https://github.com/swensi17/skmate-tv/releases/latest/download/SkMate-IPTV-webos.ipk).
 
 ## Безопасность
 
-Каждый выпуск — файл `.wgt`, подписанный одним и тем же сертификатом автора «SkMate» (распространитель — стандартный Tizen Public Distributor), поэтому обновление ставится поверх. Контрольная сумма SHA-256 указана в описании каждого выпуска.
+Каждый выпуск — файл `.wgt`, подписанный одним и тем же сертификатом автора «SkMate» (распространитель — стандартный Tizen Public Distributor), поэтому обновление ставится поверх. Для LG выпуск — файл `.ipk` с ID `uz.skmate.iptv`. Контрольные суммы SHA-256 указаны в описании каждого выпуска.
 
 ## Ответственность за контент
 
