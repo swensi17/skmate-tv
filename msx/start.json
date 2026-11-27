@@ -1,6 +1,6 @@
 {
   "name": "SkMate IPTV",
-  "version": "2.6.3",
+  "version": "2.6.4",
   "parameter": "content:http://skmate.uz/msx/start.json",
   "action": "link:http://skmate.uz/"
 }
