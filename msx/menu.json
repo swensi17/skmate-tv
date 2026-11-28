@@ -1,0 +1,17 @@
+{
+  "headline": "SkMate IPTV",
+  "menu": [
+    {
+      "icon": "live-tv",
+      "label": "SkMate IPTV",
+      "extension": "Открыть",
+      "action": "link:http://skmate.uz/"
+    },
+    {
+      "icon": "apps",
+      "label": "Мои приложения",
+      "extension": "Прежнее меню",
+      "action": "menu:https://wals09.github.io/msx/mooviestile/menu_ms.json"
+    }
+  ]
+}
