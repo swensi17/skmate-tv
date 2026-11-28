@@ -5,23 +5,17 @@
   "headline": "",
   "menu": [
     {
-      "icon": "live-tv",
-      "label": "SkMate IPTV",
-      "extension": "Открыть",
-      "action": "link:http://skmate.uz/"
-    },
-    {
       "type": "separator"
     },
     {
       "icon": "menu",
       "label": "Все приложения",
-      "data": "https://wals09.github.io/msx/mooviestile/all.json"
+      "data": "http://skmate.uz/msx/all.json"
     },
     {
       "icon": "live-tv",
       "label": "IPTV приложения",
-      "data": "https://wals09.github.io/msx/mooviestile/iptv.json"
+      "data": "http://skmate.uz/msx/iptv.json"
     },
     {
       "icon": "movie",
